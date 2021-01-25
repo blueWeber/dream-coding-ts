@@ -41,6 +41,7 @@
   function print(): void {}
 
   // never - 절대 리턴하지 않음 - while 반복, 에러 던지기
+  // never never never... 구글 검색
   function throwError(message: string): never {
     // message -> server(log)
     throw new Error(message);
