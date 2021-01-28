@@ -4,6 +4,7 @@
    */
   type Text = string;
   const name: Text = 'name';
+
   type Student = {
     name: String;
     age: number;
